@@ -1,0 +1,201 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+
+background-image: url(./tatlı/65815525-chef-image-with-tray-of-food-in-hand.jpg);
+background-size:100%;
+background-repeat: no-repeat;
+}
+.navbar{
+    color: bisque;
+    height: 100px;
+    width: 100%;
+    background-color:darkred;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: bisque;
+}
+a:hover{
+    background-color: burlywood;
+}
+
+.icons{
+    display: flex;
+    }
+    .icons a{
+        margin: 20px;
+    }
+    .grid{
+        display: grid;
+        grid-template:repeat(6, 200px);
+        gap: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+    .kutu1{
+        background-color: whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+        
+    }
+    .mozaik{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+      
+    }
+    .kutu2{
+        background-color: whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+    .kek{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .kutu3{
+        background-color: whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+    .turta{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .kutu4{
+        background-color:whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+    .prt{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .kutu5{
+        background-color:whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+    .tiramisu{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .kutu6{
+        background-color:whitesmoke;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+
+    }
+    .seker{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+  .kutu7{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+  }
+  .bamya{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .kutu8{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .makarna{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .kutu9{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .köfte{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .kutu10{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .sis{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .kutu11{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .merc{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .kutu12{
+    background-color:whitesmoke;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .pilav{
+    font-size: 15px;
+        font-weight: bold;
+        color: black;
+  }
+  .grid div{
+    opacity: 1;
+    transition:all 0,4;
+    transform: scale(1);
+  }
+  .grid div:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  footer{
+    margin-top: 100%;
+    height: 100px;
+    width: 100%;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
